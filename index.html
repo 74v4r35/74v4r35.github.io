@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Formulário HTML</title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <script src="js/script.js"></script>
+    
+</head>
+<body>
+    
+        <p> Digite valores pra realizar a soma</p>
+        
+        <div class="field">
+            <label for="num1">Primeiro Número:</label>
+            <input type="number" id="num1" class="num1" placeholder="Digite o 1º número *" required>
+        </div>
+        
+        
+
+        <div class="field">
+            <label for="num2">Segundo Número:</label>
+            <input type="number" id="num2" class="num2" placeholder="Digite o 2º número *" required>
+        </div>
+
+        <div class="field">
+            <label for="result">Total da Soma:</label>
+            <input type="text" id="total" name="valtotal"  >
+        </div>        
+        
+        <div class="button">
+            <button id="soma" onclick="soma()">Somar</button>
+        </div>
+        <div class="button">
+            <button id="menos" onclick="menos()" style="margin-left: 120px; margin-top: -35px;">Subtrair</button>
+        </div>      
+        <div class="button">
+            <button id="mult" onclick="mult()" style="margin-top: 10px;">Multiplicar</button>
+        </div>  
+        <div class="button">
+            <button id="div" onclick="div()" style="margin-left: 120px; margin-top: -35px;">Divisão</button>
+        </div>
+</body>
+
+</html>
